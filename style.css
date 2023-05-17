@@ -1,0 +1,302 @@
+::-webkit-scrollbar {
+  width: 0;
+  height: 0;
+}
+body {
+  background-color: whitesmoke;
+}
+.outer-structure {
+  width: 250px;
+  height: 500px;
+  border: 2px solid rgb(90, 89, 89);
+  background-color: rgb(90, 89, 89);
+  position: relative;
+  left: 350px;
+  top: 5vh;
+  border-radius: 25px;
+}
+.screen .bg {
+  width: 250px;
+  height: 500px;
+  position: relative;
+  left: 0;
+  top: 0;
+  border-radius: 25px;
+  background-image: url(https://w0.peakpx.com/wallpaper/344/146/HD-wallpaper-iphone-12-blast-blur-ch-original-plus-purple.jpg);
+  background-repeat: no-repeat;
+}
+.google-search-bar {
+  width: 210px;
+  height: 30px;
+  background-color: white;
+  position: relative;
+  bottom: 519px;
+  left: 18px;
+  border: none;
+  border-radius: 50px;
+  text-align: center;
+}
+.google-icon {
+  width: 25px;
+  height: 25px;
+  border: none;
+  border-radius: 50px;
+  position: relative;
+  bottom: 512px;
+  right: 190px;
+}
+.google-mic-icon {
+  width: 30px;
+  height: 30px;
+  border: none;
+  border-radius: 50px;
+  position: relative;
+  bottom: 550px;
+  left: 190px;
+}
+.time {
+  font-family: sans-serif;
+  color: white;
+  position: relative;
+  bottom: 494px;
+  left: 10px;
+  font-size: 10px;
+}
+.battery-icon {
+  width: 25px;
+  height: 25px;
+  position: relative;
+  bottom: 512px;
+  left: 210px;
+}
+.battery-percentage {
+  font-size: 10px;
+  font-family: sans-serif;
+  position: relative;
+  bottom: 534px;
+  left: 215px;
+  color: black;
+}
+.notch-area {
+  width: 130px;
+  height: 25px;
+  background: linear-gradient(to left, black, rgb(65, 64, 64));
+  position: relative;
+  top: -474px;
+  left: 413px;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+.notch-bar {
+  width: 95px;
+  height: 2px;
+  background-color: rgb(145, 143, 143);
+  position: relative;
+  bottom: 485px;
+  left: 431px;
+  border-radius: 200%;
+}
+.camera {
+  width: 5px;
+  height: 5px;
+  border-radius: 200%;
+  position: relative;
+  bottom: 496px;
+  left: 476px;
+  background: linear-gradient(white, grey);
+}
+.volume-btn-upper {
+  width: 3px;
+  height: 35px;
+  background-color: black;
+  border-top-right-radius: 50px;
+  position: relative;
+  bottom: 430px;
+  left: 603px;
+}
+.volume-btn-lower {
+  width: 3px;
+  height: 35px;
+  background-color: black;
+  border-bottom-right-radius: 50px;
+  position: relative;
+  bottom: 440px;
+  left: 603px;
+}
+.on-off-btn {
+  width: 3px;
+  height: 35px;
+  background-color: black;
+  border-top-right-radius: 50px;
+  border-bottom-right-radius: 50px;
+  position: relative;
+  bottom: 430px;
+  left: 603px;
+}
+.time-hour {
+  font-family: sans-serif;
+  font-weight: lighter;
+  font-size: 55px;
+  position: relative;
+  bottom: 510px;
+  left: 25px;
+  color: white;
+}
+.time-minute {
+  font-family: sans-serif;
+  font-weight: lighter;
+  font-size: 55px;
+  position: relative;
+  bottom: 510px;
+  left: 26px;
+  color: white;
+}
+.time-period {
+  font-family: sans-serif;
+  font-weight: lighter;
+  font-size: 15px;
+  position: relative;
+  bottom: 540px;
+  left: 90px;
+  color: white;
+}
+.google-app {
+  width: 40px;
+  height: 40px;
+  border-radius: 50px;
+  position: relative;
+  bottom: 332px;
+  left: 365px;
+  cursor: pointer;
+}
+.youtube-app {
+  width: 40px;
+  height: 40px;
+  border-radius: 10px;
+  cursor: pointer;
+  position: relative;
+  bottom: 332px;
+  left: 370px;
+  background-color: white;
+}
+.calculator-app {
+  width: 40px;
+  height: 40px;
+  border-radius: 10px;
+  cursor: pointer;
+  position: relative;
+  bottom: 332px;
+  left: 370px;
+  background-color: transparent;
+}
+.gallery-icon {
+  width: 40px;
+  height: 40px;
+  border-radius: 10px;
+  cursor: pointer;
+  position: relative;
+  bottom: 332px;
+  left: 371px;
+}
+.recorder-app {
+  width: 40px;
+  height: 40px;
+  border-radius: 10px;
+  cursor: pointer;
+  position: relative;
+  bottom: 332px;
+  left: 373px;
+  background-color: white;
+}
+.play-store-app {
+  width: 40px;
+  height: 40px;
+  border-radius: 10px;
+  cursor: pointer;
+  position: relative;
+  bottom: 255px;
+  left: 145px;
+  background-color: white;
+}
+.google-photos-app {
+  width: 40px;
+  height: 40px;
+  border-radius: 10px;
+  cursor: pointer;
+  position: relative;
+  bottom: 255px;
+  left: 150px;
+  background-color: white;
+}
+.google-maps-app {
+  width: 40px;
+  height: 40px;
+  border-radius: 10px;
+  cursor: pointer;
+  position: relative;
+  bottom: 255px;
+  left: 153px;
+}
+.facebook-app {
+  width: 40px;
+  height: 40px;
+  border-radius: 10px;
+  cursor: pointer;
+  position: relative;
+  bottom: 255px;
+  left: 156px;
+}
+.github-app{
+  width: 42px;
+  height: 42px;
+  border-radius: 10px;
+  cursor: pointer;
+  position: relative;
+  bottom: 253px;
+  left: 158px;
+}
+.phone-app{
+  width: 42px;
+  height: 42px;
+  border-radius: 10px;
+  cursor: pointer;
+  position: relative;
+  bottom: 207px;
+  left: 363px;
+}
+.contact-app{
+  width: 42px;
+  height: 42px;
+  border-radius: 10px;
+  cursor: pointer;
+  position: relative;
+  bottom: 207px;
+  left: 363px;
+}
+.camera-app{
+  width: 42px;
+  height: 42px;
+  border-radius: 10px;
+  cursor: pointer;
+  position: relative;
+  bottom: 207px;
+  left: 363px;
+}
+.message-app{
+  width: 42px;
+  height: 42px;
+  border-radius: 10px;
+  cursor: pointer;
+  position: relative;
+  bottom: 207px;
+  left: 363px;
+}
+.chrome-app{
+  width: 42px;
+  height: 42px;
+  border-radius: 10px;
+  cursor: pointer;
+  position: relative;
+  bottom: 207px;
+  left: 363px;
+}
